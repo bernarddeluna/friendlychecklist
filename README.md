@@ -4,4 +4,4 @@
 
 ### by @cironunesdev and @bernarddeluna
 
-starting point: [post on @bernarddeluna's blog][http://tinyurl.com/3gsbnvc]
+starting point: [post on @bernarddeluna's blog](http://tinyurl.com/3gsbnvc)
