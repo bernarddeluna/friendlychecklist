@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br">
+<head>
+	<title>Friendly Checklist</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/friendly-checklist.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('.list-check').friendlyChecklist();
+		});
+	</script>
+</head>
+<body>
+	<form method="post" action="" id="form">
+		<fieldset>
+			<legend>Formulario qualquer</legend>
+			<ul class="list-check"> 
+				<li> 
+					<input type="checkbox" id="check-1" name="check" /> 
+					<label for="check-1">O incentivo ao avanço tecnológico, assim como a contínua expansão de nossa atividade exige a precisão e a definição do sistema de participação geral. No mundo atual, o consenso sobre a necessidade de qualificação apresenta . </label> 
+				</li> 
+				<li> 
+					<input type="checkbox" id="check-2" name="check" /> 
+					<label for="check-2">O incentivo ao avanço tecnológico, assim como a contínua expansão de nossa atividade exige a precisão e a definição do sistema de participação geral. No mundo atual, o consenso sobre a necessidade de qualificação apresenta . </label> 
+				</li> 
+				<li> 
+					<input type="checkbox" id="check-3" name="check" disabled="disabled" /> 
+					<label for="check-3">O incentivo ao avanço tecnológico, assim como a contínua expansão de nossa atividade exige a precisão e a definição do sistema de participação geral. No mundo atual, o consenso sobre a necessidade de qualificação apresenta . </label> 
+				</li> 
+			</ul> 
+		</fieldset>
+	</form>
+
+</body>
+</html>
